@@ -1,7 +1,8 @@
 darknet_ros:
   ros__parameters:
+    image_view:
+      enable_opecv: true
     yolo_model:
-
       config_file:
         name: yolov3.cfg
       weight_file:
